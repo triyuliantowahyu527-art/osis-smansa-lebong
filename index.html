@@ -167,12 +167,14 @@ section h2 {
     padding: 20px 10px;
 }
 
-footer p {..} 
-  .gallery {
+footer p {
+    margin: 5px;
+}
+.gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    max-width: 1000px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -181,6 +183,8 @@ footer p {..}
     height: 160px;
     object-fit: cover;
     border-radius: 12px;
+    display: block;
+    margin: auto;
 }
 
 @media (max-width: 700px) {
@@ -189,8 +193,10 @@ footer p {..}
     }
 
     .gallery img {
-        height: 220px;
+        width: 80%;
+        height: 140px;
     }
+  
 }
 }
 </style>
@@ -302,14 +308,15 @@ footer p {..}
    target="_blank">
     Sampaikan Aspirasi
 </a>
- 
+
 </section>
   
 <section id="dokumentasi">
     <h2>Dokumentasi</h2>
 
     <div class="gallery">
-        
+
+        <img src="kegiatan1.jpg" alt="Kegiatan OSIS">
         <img src="kegiatan2.jpg" alt="Kegiatan OSIS">
         <img src="kegiatan3.jpg" alt="Kegiatan OSIS">
 
